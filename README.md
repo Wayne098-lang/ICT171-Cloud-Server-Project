@@ -1,21 +1,22 @@
 # ICT171 Cloud Server Project
 
 ## Project Overview
+
 This project demonstrates the deployment and management of a cloud-based web server using Microsoft Azure Infrastructure as a Service (IaaS).
 
-The website was created as part of the ICT171 Server Environments and Architectures unit at Murdoch University. The project focuses on cloud deployment, Linux server management, domain configuration, web hosting, HTTPS security implementation, and GitHub version control.
+The website was created as part of the ICT171 Introduction to Server Environments and Architectures unit at Murdoch University. The project focuses on cloud deployment, Linux server administration, web hosting, domain configuration, HTTPS security implementation, automation scripting, and GitHub version control.
 
 ---
 
 ## Student Information
 
-- **Name:** Wayne Claudius Njuguna Thara
-- **Student ID:** 35745843
-- **Unit:** ICT171 – Introduction to Server Environments and Architectures
-- **Cloud Platform:** Microsoft Azure
-- **Operating System:** Ubuntu Server 24.04 LTS
-- **Web Server:** Nginx
-- **Domain Name:** waynecloud.site
+* **Name:** Wayne Claudius Njuguna Thara
+* **Student ID:** 35745843
+* **Unit:** ICT171 – Introduction to Server Environments and Architectures
+* **Cloud Platform:** Microsoft Azure
+* **Operating System:** Ubuntu Server 24.04 LTS
+* **Web Server:** Nginx
+* **Domain Name:** waynecloud.site
 
 ---
 
@@ -23,75 +24,118 @@ The website was created as part of the ICT171 Server Environments and Architectu
 
 The main objectives of this project were:
 
-- Deploy a Linux virtual machine on Microsoft Azure
-- Configure a public web server using Nginx
-- Host a functional HTML website online
-- Configure domain name access
-- Enable HTTPS using SSL certificates
-- Demonstrate cloud server administration skills
-- Use GitHub for version control and project documentation
+* Deploy a Linux virtual machine on Microsoft Azure
+* Configure a public web server using Nginx
+* Host a functional website online
+* Configure DNS domain name access
+* Enable HTTPS using SSL/TLS certificates
+* Develop useful automation scripts
+* Demonstrate Linux server administration skills
+* Use GitHub for version control and project documentation
 
 ---
 
 ## Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| Microsoft Azure | Cloud hosting platform |
-| Ubuntu Server 24.04 | Linux server operating system |
-| Nginx | Web server |
-| HTML | Website development |
-| Certbot & Let's Encrypt | SSL certificate management |
-| GitHub | Version control and repository hosting |
+| Technology              | Purpose                                |
+| ----------------------- | -------------------------------------- |
+| Microsoft Azure         | Cloud hosting platform                 |
+| Ubuntu Server 24.04 LTS | Linux server operating system          |
+| Nginx                   | Web server                             |
+| HTML & CSS              | Website development                    |
+| Certbot & Let's Encrypt | SSL certificate management             |
+| Bash                    | Automation scripting                   |
+| GitHub                  | Version control and repository hosting |
 
 ---
 
 ## Server Configuration
 
-| Component | Details |
-|---|---|
-| VM Name | UbuntuMachine |
-| VM Size | Standard B2ats v2 |
-| Region | East Asia |
-| Public IP | 104.214.170.95 |
-| Protocols Enabled | HTTP, HTTPS, SSH |
-| Security | Trusted Launch, Secure Boot, vTPM |
+| Component         | Details                           |
+| ----------------- | --------------------------------- |
+| VM Name           | UbuntuMachine                     |
+| VM Size           | Standard B2ats v2                 |
+| Region            | East Asia                         |
+| Public IP         | 104.214.170.95                    |
+| Protocols Enabled | HTTP, HTTPS, SSH                  |
+| Security          | Trusted Launch, Secure Boot, vTPM |
 
 ---
 
 ## Website Features
 
-- Publicly accessible cloud-hosted website
-- Domain name integration
-- HTTPS secure connection
-- Nginx web server configuration
-- Linux server administration
-- GitHub repository integration
+* Main educational website hosted using Nginx
+* Live server monitoring dashboard generated through a Bash script
+* Educational resource hosting service
+* Administrative management portal
+* Automated backup functionality
+* DNS integration using waynecloud.site
+* HTTPS encryption using SSL/TLS certificates
+* GitHub documentation and version control integration
+* Unified navigation connecting all server services
 
 ---
 
 ## Live Website
 
-Visit the live website below:
+### Website
 
-https://waynecloud.site
+[WayneCloud Website](https://waynecloud.site)
+
+### Monitoring Dashboard
+
+[Server Status Page](https://waynecloud.site/status.html)
+
+### Resource Centre
+
+[Resource Centre](https://waynecloud.site/resources/)
+
+### Administrative Portal
+
+[Admin Portal](https://waynecloud.site/admin.html)
 
 ---
 
 ## HTTPS Security
 
-SSL certificates were configured using Let's Encrypt and Certbot to secure the website using HTTPS encryption.
+SSL certificates were configured using Let's Encrypt and Certbot to secure communication using HTTPS.
 
 HTTPS was successfully enabled for:
-- https://waynecloud.site
-- https://www.waynecloud.site
+
+* https://waynecloud.site
+* https://www.waynecloud.site
+
+Security configuration includes:
+
+* Port 22 – SSH administration
+* Port 80 – HTTP traffic
+* Port 443 – HTTPS encrypted traffic
 
 ---
 
 ## GitHub Repository
 
 Repository Link:
-https://github.com/Wayne098-lang/ICT171-Cloud-Server-Project
+
+[GitHub Repository](https://github.com/Wayne098-lang/ICT171-Cloud-Server-Project)
+
+The repository contains project documentation, screenshots, implementation evidence, licensing information, and development history.
+
+---
+
+## Screenshots
+
+The repository contains screenshots demonstrating:
+
+* Azure Virtual Machine deployment
+* Azure Network Security Group configuration
+* Nginx web server configuration
+* HTTPS certificate implementation
+* Monitoring dashboard output
+* Student Resource Centre
+* Administrative Portal
+* Backup automation script
+* GitHub repository documentation
 
 ---
 
@@ -99,59 +143,88 @@ https://github.com/Wayne098-lang/ICT171-Cloud-Server-Project
 
 Through this project, the following skills were developed:
 
-- Cloud infrastructure deployment
-- Linux command-line administration
-- Web server configuration
-- Domain and DNS management
-- SSL certificate configuration
-- GitHub repository management
-- Infrastructure as a Service (IaaS) concepts
+* Cloud infrastructure deployment
+* Linux command-line administration
+* Web server configuration
+* DNS management
+* SSL/TLS certificate implementation
+* Automation scripting using Bash
+* GitHub repository management
+* Infrastructure as a Service (IaaS) concepts
+* Cloud security configuration
+* Technical documentation practices
 
 ---
 
 ## Integrated Cloud Services
 
-WayneCloud was developed as a multi-purpose cloud server hosted on Microsoft Azure. The server integrates several services into one cloud platform:
+WayneCloud was developed as a multi-purpose cloud server hosted on Microsoft Azure. The platform integrates several services into one cloud environment:
 
-- Main school website hosted using Nginx
-- Live server monitoring dashboard generated by a Bash script
-- Student resource centre for hosted learning materials
-- Administrative portal linking server services
-- Automated backup script for website recovery
-- DNS configuration using waynecloud.site
-- HTTPS security using SSL/TLS certificates
-- GitHub documentation and version control
+* Main school website hosted using Nginx
+* Live server monitoring dashboard generated by a Bash script
+* Student Resource Centre for hosted learning materials
+* Administrative Portal linking server services
+* Automated backup system for website recovery
+* DNS configuration using waynecloud.site
+* HTTPS security using SSL/TLS certificates
+* GitHub documentation and version control
+
+These components are connected through a unified navigation structure, creating an integrated cloud platform rather than a standalone website.
+
+---
 
 ## Testing Evidence
 
 The project was tested using:
 
-- Website access through https://waynecloud.site
-- DNS resolution through the custom domain name
-- HTTPS certificate verification
-- Nginx service status check
-- Azure Network Security Group rules for ports 22, 80 and 443
-- Bash monitoring script output through status.html
-- Backup script output showing a generated .tar.gz backup file
+* Website access through https://waynecloud.site
+* DNS resolution through the custom domain name
+* HTTPS certificate verification
+* Nginx service status verification
+* Azure Network Security Group rule verification
+* Monitoring dashboard functionality testing
+* Resource Centre accessibility testing
+* Administrative Portal accessibility testing
+* Backup script generation testing
+
+Results confirmed that all major project components were functioning successfully.
+
+---
 
 ## Development Timeline
 
-The project was improved in stages:
+The project was developed in stages:
 
-1. Azure virtual machine created.
-2. Ubuntu server configured.
-3. Nginx web server installed.
-4. Website deployed.
-5. DNS connected to waynecloud.site.
-6. HTTPS configured using Let's Encrypt.
-7. Monitoring dashboard added.
-8. Resource centre added.
-9. Admin portal added.
-10. Backup automation added.
-11. Documentation and screenshots updated.
+1. Azure virtual machine deployment
+2. Ubuntu Server configuration
+3. Nginx web server installation
+4. Website deployment
+5. DNS configuration
+6. HTTPS implementation using Let's Encrypt
+7. Monitoring dashboard development
+8. Student Resource Centre deployment
+9. Administrative Portal implementation
+10. Backup automation development
+11. Documentation and screenshot collection
+12. Final testing and verification
 
+---
 
------------------
+## Future Improvements
+
+Potential future improvements include:
+
+* Database integration
+* User authentication system
+* Dynamic content management
+* Scheduled automated backups
+* Advanced monitoring dashboards
+* Learning management functionality
+* Student login portal
+* Real-time analytics
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
